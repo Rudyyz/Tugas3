@@ -1,5 +1,6 @@
 package Tugas3;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -43,6 +44,7 @@ public class Main {
             System.out.println("2. Ambil Barang Hilang");
             System.out.println("3. Exit");
             System.out.print("Pilih menu: ");
+            System.out.println("Menu Tambahan");
             pilihan = input.nextInt();
             input.nextLine();
 
